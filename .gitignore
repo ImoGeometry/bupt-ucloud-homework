@@ -1,0 +1,20 @@
+# 凭据：学号 + 统一认证密码，绝不入库
+.env
+.env.local
+*.local.env
+!/.env.example
+
+# 本机登录态缓存（access_token / refresh_token）
+.ucloud_bupt_session.json
+*.session.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 杂项
+*.log
+.DS_Store
+Thumbs.db
